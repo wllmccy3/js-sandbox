@@ -20,10 +20,6 @@ body, html {
     background-color: gray;
 }
 
-.darkMode{
-    
-}
-
 #content{
     color: black;
     background-color: wheat;
@@ -39,4 +35,9 @@ body, html {
     background-color: burlywood;
     color: white;
     outline: none;
+}
+
+.dark-mode{
+    color: wheat !important;
+    background-color: gray !important;
 }

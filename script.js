@@ -1,9 +1,17 @@
 let colorSelector = document.getElementById("colorSelector");
 colorSelector.onchange = function () {
-    console.log(colorSelector.value)
+    console.log(colorSelector.value);
     document.getElementById("colorBox").style = `background-color: ${colorSelector.value};`;
 };
 
 function toggleDarkMode() {
-    alert("TOGGLE ME, PLEASE")
+    let content = document.getElementById("content");
+    content.classList.toggle("dark-mode");
+    //alert("TOGGLE ME, PLEASE")
+}
+
+function teleport(){
+    console.log("teleport");
+    let runaway = document.getElementById("runaway");
+    runaway.innerText = "Cringe!";
 }
